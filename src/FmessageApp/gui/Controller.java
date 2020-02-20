@@ -1,4 +1,4 @@
-package sample;
+package FmessageApp.gui;
 
 public class Controller {
 }
