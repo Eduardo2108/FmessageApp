@@ -30,12 +30,20 @@ public class server {
             Socket entrada = server.accept();
             BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
             String mensaje = lector.readLine();
-            System.out.println(mensaje);
+            procesar(mensaje);
             entrada.close();
 
         }
     }
 
+    private void procesar(String entrada){
+         String[] datos = entrada.split("#");
+         String mensaje = datos[0];
+         String puerto = datos[1];
+        System.out.println("EL mensaje fue: " + mensaje);
+        System.out.println("El puerto fue: " + puerto);
+
+    }
     public static void main(String[] args) throws IOException {
         server s = new server();
         s.connect(100, 101);
