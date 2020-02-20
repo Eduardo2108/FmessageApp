@@ -5,15 +5,17 @@ import java.io.BufferedReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import static java.lang.System.*;
+
 public class server {
     private boolean flag = false;
     private boolean active = true;
-    private ServerSocket server = null;
-    public void connect(int min, int max){
-        while(!flag & min!=max){
+    private ServerSocket receptorMensajes = null;
+    private void connect(int min, int max){
+        while(!flag && min!=max){
             try{
-                server = new ServerSocket(min);
-                System.out.println("server conectado al puerto: " + min);
+                receptorMensajes = new ServerSocket(min);
+                out.println("server conectado al puerto: " + min);
                 flag = true;
             } catch (IOException e) {
                 e.printStackTrace();
@@ -24,10 +26,10 @@ public class server {
         }
     }
 
-    public void listen() throws IOException {
-        while(true){
-            System.out.println("listening...");
-            Socket entrada = server.accept();
+    private void listen() throws IOException {
+        while(active){
+            out.println("listening...");
+            Socket entrada = receptorMensajes.accept();
             BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
             String mensaje = lector.readLine();
             procesar(mensaje);
@@ -38,10 +40,10 @@ public class server {
 
     private void procesar(String entrada){
          String[] datos = entrada.split("#");
-         String mensaje = datos[0];
-         String puerto = datos[1];
-        System.out.println("EL mensaje fue: " + mensaje);
-        System.out.println("El puerto fue: " + puerto);
+        int puerto = Integer.parseInt(datos[1]);
+
+        out.println("EL mensaje fue: " + datos[0]);
+        out.println("El puerto fue: " + puerto);
 
     }
     public static void main(String[] args) throws IOException {
