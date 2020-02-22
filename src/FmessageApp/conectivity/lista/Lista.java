@@ -1,7 +1,5 @@
 package FmessageApp.conectivity.lista;
 
-import java.sql.SQLOutput;
-
 class Lista {
 
     private Nodo head;
@@ -25,7 +23,7 @@ class Lista {
         }
     }
 
-    public void index(int subIndice){
+    public Nodo index(int subIndice){
         Nodo tmp = this.head;
         int ref = 0;
         while(ref != subIndice){
@@ -34,7 +32,9 @@ class Lista {
                 System.out.println("Index out of range");
                 break;
             }
+            ref++;
         }
+        return tmp;
 
     }
 
