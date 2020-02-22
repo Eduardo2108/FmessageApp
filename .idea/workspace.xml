@@ -69,7 +69,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/FmessageApp/conectivity/server.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/FmessageApp/conectivity/server.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Y5K847NSER0cCiRiM6C2LAJRjJ" />
@@ -232,7 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1582226854617" duration="6618000" />
+      <workItem from="1582226854617" duration="7888000" />
     </task>
     <servers />
   </component>

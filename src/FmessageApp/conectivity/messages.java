@@ -2,6 +2,9 @@ package FmessageApp.conectivity;
 
 public class messages {
 
-    private int remitente;
+    private server receptor = new server();
+    private client enviador = new client();
+
+
 
 }

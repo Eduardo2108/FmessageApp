@@ -9,7 +9,7 @@ import static java.lang.System.*;
 
 public class server {
     private boolean flag = false;
-    private boolean active = true;
+
     private ServerSocket receptorMensajes = null;
     private void connect(int min, int max){
         while(!flag && min!=max){
@@ -27,18 +27,19 @@ public class server {
     }
 
     private void listen() throws IOException {
+        boolean active = true;
         while(active){
             out.println("listening...");
             Socket entrada = receptorMensajes.accept();
             BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
             String mensaje = lector.readLine();
-            procesar(mensaje);
+            procesarEntrada(mensaje);
             entrada.close();
 
         }
     }
 
-    private void procesar(String entrada){
+    private void procesarEntrada(String entrada){
          String[] datos = entrada.split("#");
         int puerto = Integer.parseInt(datos[1]);
 
