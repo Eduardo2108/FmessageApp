@@ -46,4 +46,16 @@ public class Lista {
 
     }
 
+    public boolean existe(Nodo mensaje){
+        Nodo tmp = this.head;
+        boolean var = false;
+        while(tmp.getSiguiente() != null){
+            if(tmp == mensaje){
+                var = true;
+                break;
+            }
+            tmp = tmp.getSiguiente();
+        }
+        return var;
+    }
 }

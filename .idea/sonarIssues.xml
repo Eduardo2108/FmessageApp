@@ -13,12 +13,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/Conversation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/Lista/Lista.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/Lista/nodo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/Messenger.java">
           <value>
             <set />
           </value>

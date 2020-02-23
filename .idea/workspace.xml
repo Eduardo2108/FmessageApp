@@ -170,7 +170,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FmessageApp.conectivity.*" />
+          <option name="PATTERN" value="FmessageApp.conectivity.Messenger" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,7 +184,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FmessageApp.conectivity.*" />
+          <option name="PATTERN" value="FmessageApp.conectivity.Messenger" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,7 +247,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1582226854617" duration="11922000" />
-      <workItem from="1582342446969" duration="7801000" />
+      <workItem from="1582342446969" duration="8813000" />
     </task>
     <servers />
   </component>
