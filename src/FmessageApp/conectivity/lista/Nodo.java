@@ -5,11 +5,10 @@ class Nodo {
     private int puerto;
     private String hora;
 
-    protected Nodo(String mensaje, int puerto, String hora, String remitente){
+    protected Nodo(String mensaje, int puerto, String hora){
         this.mensaje = mensaje;
         this.puerto = puerto;
         this.hora = hora;
-        this.remitente = remitente;
 
         siguiente = null;
 
@@ -20,7 +19,7 @@ class Nodo {
         return this;
     }
 
-    private String remitente;
+
     private Nodo siguiente;
 
     private Nodo anterior;
@@ -31,14 +30,6 @@ class Nodo {
 
     public int getPuerto() {
         return puerto;
-    }
-
-    public String getHora() {
-        return hora;
-    }
-
-    public String getRemitente() {
-        return remitente;
     }
 
     public Nodo getSiguiente() {

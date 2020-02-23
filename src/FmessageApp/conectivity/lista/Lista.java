@@ -1,12 +1,15 @@
 package FmessageApp.conectivity.lista;
 
-class Lista {
+public class Lista {
 
     private Nodo head;
     private int largo;
+    private String remitente;
+    private String hora;
 
-    public void agregarMensaje(String texto, int puerto, String hora, String remitente){
-        Nodo mensajeNuevo = new Nodo(texto, puerto, hora,remitente);
+
+    public void agregarMensaje(String texto, int puerto, String hora){
+        Nodo mensajeNuevo = new Nodo(texto, puerto, hora);
         if(largo==0){
             this.head = mensajeNuevo;
             this.largo ++;
@@ -22,7 +25,12 @@ class Lista {
             System.out.println("Mensaje #" + largo + " agregado");
         }
     }
-
+    public Lista(String remitente, String hora){
+        this.hora = hora;
+        this.largo = 0;
+        this.head = null;
+        this.remitente = remitente;
+    }
     public Nodo index(int subIndice){
         Nodo tmp = this.head;
         int ref = 0;

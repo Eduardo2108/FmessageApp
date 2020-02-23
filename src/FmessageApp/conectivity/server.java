@@ -1,4 +1,6 @@
 package FmessageApp.conectivity;
+
+
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.BufferedReader;
@@ -9,7 +11,6 @@ import static java.lang.System.*;
 
 public class server {
     private boolean flag = false;
-
     private ServerSocket receptorMensajes = null;
     private void connect(int min, int max){
         while(!flag && min!=max){
