@@ -5,7 +5,7 @@ public class Lista {
     private Nodo head;
     private int largo;
     private String remitente;
-    private String hora;
+
 
 
     public void agregarMensaje(String texto, int puerto, String hora){
@@ -25,8 +25,8 @@ public class Lista {
             System.out.println("Mensaje #" + largo + " agregado");
         }
     }
-    public Lista(String remitente, String hora){
-        this.hora = hora;
+    public Lista(String remitente){
+
         this.largo = 0;
         this.head = null;
         this.remitente = remitente;
