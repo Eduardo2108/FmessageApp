@@ -12,7 +12,7 @@ public class messages {
 
 
     public messages(int port, String nombreRemitente, String mensaje, String hora){
-        this.mensajes = new Lista(nombreRemitente);
+        this.mensajes = new Lista(nombreRemitente, hora);
         this.mensajes.agregarMensaje(mensaje,port,hora);
 
     }

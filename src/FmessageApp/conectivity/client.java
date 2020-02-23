@@ -12,6 +12,9 @@ public class client {
         writer.flush();
         client.close();
     }
+    public static void main(String[] args){
+
+    }
 }
 
 

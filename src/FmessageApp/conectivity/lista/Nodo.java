@@ -8,21 +8,16 @@ class Nodo {
     protected Nodo(String mensaje, int puerto, String hora){
         this.mensaje = mensaje;
         this.puerto = puerto;
-        this.hora = hora;
 
         siguiente = null;
 
 
     }
-    public Nodo setSiguiente(Nodo siguiente) {
+    void setSiguiente(Nodo siguiente) {
         this.siguiente = siguiente;
-        return this;
     }
 
-
     private Nodo siguiente;
-
-    private Nodo anterior;
 
     public String getMensaje() {
         return mensaje;
@@ -31,7 +26,7 @@ class Nodo {
     public int getPuerto() {
         return puerto;
     }
-
+-
     public Nodo getSiguiente() {
         return siguiente;
     }
