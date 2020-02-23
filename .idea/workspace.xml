@@ -104,7 +104,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Verano" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -170,7 +170,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FmessageApp.conectivity.Messenger" />
+          <option name="PATTERN" value="FmessageApp.conectivity.Conversacion" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,7 +184,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FmessageApp.conectivity.Messenger" />
+          <option name="PATTERN" value="FmessageApp.conectivity.Conversacion" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,7 +247,7 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1582226854617" duration="11922000" />
-      <workItem from="1582342446969" duration="8813000" />
+      <workItem from="1582342446969" duration="12062000" />
     </task>
     <servers />
   </component>

@@ -2,16 +2,18 @@ package FmessageApp.conectivity;
 
 import FmessageApp.conectivity.lista.Lista;
 
-public class Messenger {
+public class Conversacion {
 
-    private server receptor = new server();
-    private client enviador = new client();
-    private Lista listaMensajes;
     private Lista mensajes;
+    private client enviador;
     private String nombreRemitente;
+    private int cantMensajes;
+    private int puerto;
     private int cantidadMensajes = 0;
 
-    public void agregarMensaje(int port, String nombreRemitente, String mensaje, String hora) {
+
+    public void recibirMensaje(int port, String nombreRemitente, String mensaje, String hora) {
+
         if(cantidadMensajes == 0){
             mensajes = new Lista(nombreRemitente);
             mensajes.agregarMensaje(mensaje,port,hora);
