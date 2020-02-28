@@ -9,3 +9,5 @@ W
 'src/FmessageApp/conectivity/client.java,5\0\5090fff2207ac08a149cdd8c0e865df05317be2e
 W
 'src/FmessageApp/conectivity/server.java,d\5\d51a04d18e9f2f7d8aba28eddb0461aec0c0cfd6
+]
+-src/FmessageApp/conectivity/Conversacion.java,b\3\b39154eae33285e4f550f7e49d16101a01655632

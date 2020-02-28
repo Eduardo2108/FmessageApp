@@ -33,16 +33,6 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/ListaMensajes/ListaMensajes.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/ListaMensajes/Mensaje.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/Mensajeria.java">
           <value>
             <set />
@@ -58,22 +48,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/conversaciones/nodo.java">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/lista/Lista.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/lista/ListaMensajes.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/lista/Mensaje.java">
           <value>
             <set />
           </value>
@@ -84,16 +59,6 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/lista/nodo.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/listaDoble/lista.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/FmessageApp/conectivity/listaDoble/nodo.java">
           <value>
             <set />
           </value>

@@ -1,5 +1,4 @@
 
 esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÕÉ‰
+`squid:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¨á…Ì8Áè †.
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÆ™ªûÿÿÿÿ
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(ËÕÉ‰8ø ÚÓ†.
-bsquid:S2095	"DUse try-with-resources or close this "Socket" in a "finally" clause.(¨á…Ì8Áè †.
