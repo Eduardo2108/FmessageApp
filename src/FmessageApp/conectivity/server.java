@@ -43,10 +43,12 @@ public class server {
     private void procesarEntrada(String entrada){
          String[] datos = entrada.split("#");
         int puerto = Integer.parseInt(datos[1]);
-
+        String remitente = datos[2];
         out.println("EL mensaje fue: " + datos[0]);
         out.println("El puerto fue: " + puerto);
 
+        Conversacion primeraConversacion = new Conversacion();
+        primeraConversacion.recibirMensaje(remitente,datos[0],"15:30");
     }
     public static void main(String[] args) throws IOException {
         server s = new server();
