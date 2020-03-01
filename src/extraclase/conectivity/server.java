@@ -22,7 +22,7 @@ public class server  {
     private ServerSocket receptorMensajes = null;
     public static Conversacion[] listaConversaciones = new Conversacion[5];
     private int min = 100, max = 110;
-
+    private int myPort;
 
     /**
      * @param min margen minimo del rango de puertos en los que se quiere probar conexion
@@ -33,6 +33,7 @@ public class server  {
             try {
                 receptorMensajes = new ServerSocket(min);
                 out.println("server conectado al puerto: " + min);
+                this.myPort = min;
                 flag = true;
             } catch (IOException e) {
                 e.printStackTrace();
@@ -42,16 +43,19 @@ public class server  {
 
         }
     }
-
+    public int getPort(){
+        return myPort;
+    }
     /**
      * Metodo que inicia la escucha del puerto conectado para recibir mensajes
      *
      * @throws IOException
      */
     public void listen() throws IOException {
+        out.println("listening...");
+
         boolean active = true;
         while (active) {
-            out.println("listening...");
             Socket entrada = receptorMensajes.accept();
             BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
             String mensaje = lector.readLine();

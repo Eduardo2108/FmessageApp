@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Se agrega metodo enviar mensaje a la clase aplicacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/ListaMensajes/ListaMensajes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/historial/ListaMensajes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/ListaMensajes/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/historial/Mensaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/conversaciones/nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/conversaciones/nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,13 +120,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -325,7 +320,7 @@
       <workItem from="1582342446969" duration="16109000" />
       <workItem from="1582833340538" duration="3667000" />
       <workItem from="1582342446969" duration="12062000" />
-      <workItem from="1583025868243" duration="17835000" />
+      <workItem from="1583025868243" duration="18847000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -334,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583045632334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se agrega metodo enviar mensaje a la clase aplicacion">
+      <created>1583048222370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583048222370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +369,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI" />
+    <MESSAGE value="Se agrega metodo enviar mensaje a la clase aplicacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega metodo enviar mensaje a la clase aplicacion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

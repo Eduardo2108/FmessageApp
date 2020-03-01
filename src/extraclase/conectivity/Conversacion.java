@@ -13,20 +13,20 @@ public class Conversacion {
     private ListaMensajes mensajes;
     private Client enviador;
 
-    private String nombreRemitente; //Nombre de la otra persona
-    private int puertoRemitente; // Puerto de la otra persona
+    private String nombreDestinatario; //Nombre de la otra persona
+    private int puertoDestino; // Puerto de la otra persona
 
     private int cantidadMensajes = 0;
 
-    public Conversacion(int puertoRemitente) {
+    public Conversacion(int puertoDestino) {
         enviador = new Client();
-        this.puertoRemitente = puertoRemitente;
+        this.puertoDestino = puertoDestino;
     }
 
-    public void addMessage(String nombreRemitente, String mensaje, String hora, int key) {
+    public void addMessage(String nombreDestinatario, String mensaje, String hora, int key) {
 
         if (cantidadMensajes == 0) {
-            this.nombreRemitente = nombreRemitente;
+            this.nombreDestinatario = nombreDestinatario;
             this.enviador = new Client();
             mensajes = new ListaMensajes( );
             mensajes.agregarMensaje(mensaje, hora, key);
@@ -41,21 +41,21 @@ public class Conversacion {
 
     public void sendMessage(String mensaje, int puerto, String id) throws IOException {
 
-        enviador.sendMessage(mensaje, puertoRemitente, puerto, id);
+        enviador.sendMessage(mensaje, puertoDestino, puerto, id);
 
         //Obtener la hora
         Date hora = Calendar.getInstance().getTime();
         DateFormat dateFormat = new SimpleDateFormat("hh:mm:ss");
         String strHora = dateFormat.format(hora);
-        this.addMessage(nombreRemitente, mensaje, strHora, 1);
+        this.addMessage(nombreDestinatario, mensaje, strHora, 1);
 
     }
 
     public String getRemitente() {
-        return this.nombreRemitente;
+        return this.nombreDestinatario;
     }
 
     public int getPuerto() {
-        return this.puertoRemitente;
+        return this.puertoDestino;
     }
 }
