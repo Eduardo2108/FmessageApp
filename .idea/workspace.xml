@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Se agrega metodo enviar mensaje a la clase aplicacion">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="afinada la clase persona, se envia y reciben mesajes a traves de ella">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,6 +100,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/server.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Y5K847NSER0cCiRiM6C2LAJRjJ" />
@@ -145,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Aplication">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -160,6 +160,19 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraclase.conectivity.Aplication" />
+      <module name="FmessageApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extraclase.conectivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,20 +255,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FmessageApp.conectivity.server" />
-      <module name="FmessageApp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FmessageApp.conectivity.Conversacion" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,19 +288,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.server" />
       <item itemvalue="Application.client" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.server (1)" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Aplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Aplication" />
         <item itemvalue="Application.server (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.client" />
-        <item itemvalue="Application.server" />
       </list>
     </recent_temporary>
   </component>
@@ -314,13 +313,14 @@
       <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+      <running>true</running>
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1582226854617" duration="11922000" />
       <workItem from="1582342446969" duration="16109000" />
       <workItem from="1582833340538" duration="3667000" />
       <workItem from="1582342446969" duration="12062000" />
-      <workItem from="1583025868243" duration="18847000" />
+      <workItem from="1583025868243" duration="21934000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -336,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583048222370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="afinada la clase persona, se envia y reciben mesajes a traves de ella">
+      <created>1583049419392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583049419392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +377,8 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI" />
     <MESSAGE value="Se agrega metodo enviar mensaje a la clase aplicacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega metodo enviar mensaje a la clase aplicacion" />
+    <MESSAGE value="afinada la clase persona, se envia y reciben mesajes a traves de ella" />
+    <option name="LAST_COMMIT_MESSAGE" value="afinada la clase persona, se envia y reciben mesajes a traves de ella" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

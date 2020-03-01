@@ -15,7 +15,7 @@ import static java.lang.System.*;
 /**
  * Esta clase se encarga de recibir los mensajes entrantes y procesarlos y pasarlos a la clase Conversacion segun corresponda
  */
-public class server  {
+public class server extends Thread {
 
 
     private boolean flag = false;
@@ -36,12 +36,16 @@ public class server  {
                 this.myPort = min;
                 flag = true;
             } catch (IOException e) {
-                e.printStackTrace();
+                out.println(e);
                 min++;
 
             }
 
         }
+    }
+    public void start(){
+        this.connect(this.min, this.max);
+        this.run();
     }
     public int getPort(){
         return myPort;
@@ -51,19 +55,7 @@ public class server  {
      *
      * @throws IOException
      */
-    public void listen() throws IOException {
-        out.println("listening...");
 
-        boolean active = true;
-        while (active) {
-            Socket entrada = receptorMensajes.accept();
-            BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
-            String mensaje = lector.readLine();
-            procesarEntrada(mensaje);
-            entrada.close();
-
-        }
-    }
 
     /**
      * Descompone el mensaje siguiendo la siguiente formula: mensaje +
@@ -117,10 +109,26 @@ public class server  {
             }
         }
     }
+    @Override
+    public void run(){
+        try {
+            out.println("listening...");
+            boolean active = true;
 
-    public static void main(String[] args) throws IOException {
-        server s = new server();
-        s.connect(s.min,s.max);
-        s.listen();
+            while (active) {
+                Socket entrada = receptorMensajes.accept();
+                BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
+                String mensaje = lector.readLine();
+                procesarEntrada(mensaje);
+                entrada.close();
+
+
+            }
+        }
+        catch (IOException a){
+            out.println(a);
+        }
+
+
     }
 }

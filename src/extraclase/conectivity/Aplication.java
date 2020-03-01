@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Aplication {
 
-    private server listener;
+    private server listener = new server();
     private Client sender;
     private int puertoActual;
     private String ID;
@@ -31,26 +31,14 @@ public class Aplication {
             i++;
         }
     }
-    private void start() throws IOException {
-        this.listener = new server();
-        this.puertoActual = listener.getPort();
-        Thread threadListener = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    listener.listen();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+    private void start() {
+        this.listener.start();
 
-            }
-        });
-        threadListener.run();
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Aplication app = new Aplication();
-        app.start();
+         app.start();
     }
 
 }
