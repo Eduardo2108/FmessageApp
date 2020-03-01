@@ -6,16 +6,15 @@ public class ListaMensajes {
     private int largo;
 
 
-    public void agregarMensaje(String texto, String hora){
+    public void agregarMensaje(String texto, String hora) {
         Mensaje mensajeNuevo = new Mensaje(texto, hora);
-        if(largo==0){
+        if (largo == 0) {
             this.head = mensajeNuevo;
-            this.largo ++;
+            this.largo++;
             //System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
-        }
-        else{
+        } else {
             Mensaje tmp = this.head;
-            while(tmp.getSiguiente() != null){
+            while (tmp.getSiguiente() != null) {
                 tmp = tmp.getSiguiente();
             }
             tmp.setSiguiente(mensajeNuevo);
@@ -23,16 +22,18 @@ public class ListaMensajes {
             //System.out.println("Mensaje #" + largo + " agregado" + " " + hora);
         }
     }
-    public ListaMensajes(String remitente){
+
+    public ListaMensajes(String remitente) {
 
         this.largo = 0;
         this.head = null;
     }
-    public Mensaje index(int subIndice){
+
+    public Mensaje index(int subIndice) {
         Mensaje tmp = this.head;
         int ref = 0;
-        while(ref != subIndice){
-            if(tmp == null){
+        while (ref != subIndice) {
+            if (tmp == null) {
                 System.out.println("Index out of range");
                 break;
             }
@@ -43,11 +44,11 @@ public class ListaMensajes {
 
     }
 
-    public boolean existe(Mensaje mensaje){
+    public boolean existe(Mensaje mensaje) {
         Mensaje tmp = this.head;
         boolean var = false;
-        while(tmp.getSiguiente() != null){
-            if(tmp == mensaje){
+        while (tmp.getSiguiente() != null) {
+            if (tmp == mensaje) {
                 var = true;
                 break;
             }

@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -99,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/FmessageApp/gui/sample.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java">
           <value>
             <set />
           </value>
