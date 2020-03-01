@@ -1,6 +1,0 @@
-
-Jsquid:S1068	"3Remove this unused "nombreRemitente" private field.(é¤è¢
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŠÆ™ªûÿÿÿÿ
-tsquid:S1450"WRemove the "enviador" field and declare it as a local variable in the relevant methods.(òÎ€e8¨ÅßÍˆ.
-|squid:S1450	"^Remove the "nombreRemitente" field and declare it as a local variable in the relevant methods.(é¤è¢8¨ÅßÍˆ.
-Isquid:S1068",Remove this unused "enviador" private field.(òÎ€e8¨ÅßÍˆ.

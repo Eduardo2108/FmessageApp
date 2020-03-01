@@ -1,4 +1,4 @@
-package FmessageApp.gui;
+package extraclase.gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

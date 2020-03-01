@@ -1,4 +1,4 @@
-package FmessageApp.gui;
+package extraclase.gui;
 
 public class Controller {
 }

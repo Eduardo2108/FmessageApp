@@ -1,6 +1,6 @@
-package FmessageApp.conectivity.conversaciones;
+package extraclase.conectivity.conversaciones;
 
-import FmessageApp.conectivity.Conversacion;
+import extraclase.conectivity.Conversacion;
 
 public class nodo {
     private Conversacion conversacion;

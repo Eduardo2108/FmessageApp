@@ -1,34 +1,31 @@
-package FmessageApp.conectivity.ListaMensajes;
+package extraclase.conectivity.ListaMensajes;
 
-class Nodo {
+public class Mensaje {
     private String mensaje;
     private int puerto;
     private String hora;
 
 
-    protected Nodo(String mensaje, int puerto, String hora){
+    protected Mensaje(String mensaje,String hora){
         this.mensaje = mensaje;
-        this.puerto = puerto;
+
         this.hora = hora;
         siguiente = null;
 
 
     }
-    void setSiguiente(Nodo siguiente) {
+    void setSiguiente(Mensaje siguiente) {
         this.siguiente = siguiente;
     }
 
-    private Nodo siguiente;
+    private Mensaje siguiente;
 
     public String getMensaje() {
         return mensaje;
     }
 
-    public int getPuerto() {
-        return puerto;
-    }
 
-    public Nodo getSiguiente() {
+    public Mensaje getSiguiente() {
         return siguiente;
     }
 }

@@ -1,16 +1,17 @@
-package FmessageApp.conectivity.ListaMensajes;
+package extraclase.conectivity.ListaMensajes;
 
 public class ListaMensajes {
 
     private Mensaje head;
     private int largo;
 
+
     public void agregarMensaje(String texto, String hora){
         Mensaje mensajeNuevo = new Mensaje(texto, hora);
         if(largo==0){
             this.head = mensajeNuevo;
             this.largo ++;
-            System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
+            //System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
         }
         else{
             Mensaje tmp = this.head;
@@ -19,7 +20,7 @@ public class ListaMensajes {
             }
             tmp.setSiguiente(mensajeNuevo);
             this.largo++;
-            System.out.println("Mensaje #" + largo + " agregado");
+            //System.out.println("Mensaje #" + largo + " agregado");
         }
     }
     public ListaMensajes(String remitente){
