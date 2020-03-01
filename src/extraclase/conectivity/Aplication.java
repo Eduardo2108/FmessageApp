@@ -12,8 +12,15 @@ public class Aplication {
     private int puertoActual;
     private String ID;
 
+
     private void sendMessage(String mensaje, int puerto) throws IOException {
         sender.sendMessage(mensaje,puerto,puertoActual,ID);
-        System.out.println("Mensaje enviado a: ");
+        System.out.println("Mensaje enviado a: " + puerto);
+
     }
+    private void start() throws IOException {
+        listener.listen();
+    }
+
+
 }
