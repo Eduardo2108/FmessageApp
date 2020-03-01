@@ -11,7 +11,7 @@ public class ListaMensajes {
         if(largo==0){
             this.head = mensajeNuevo;
             this.largo ++;
-            //System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
+            System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
         }
         else{
             Mensaje tmp = this.head;
@@ -20,7 +20,7 @@ public class ListaMensajes {
             }
             tmp.setSiguiente(mensajeNuevo);
             this.largo++;
-            //System.out.println("Mensaje #" + largo + " agregado");
+            System.out.println("Mensaje #" + largo + " agregado" + " " + hora);
         }
     }
     public ListaMensajes(String remitente){

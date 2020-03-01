@@ -1,14 +1,17 @@
 package extraclase.conectivity;
 
 
-import extraclase.conectivity.ListaMensajes.ListaMensajes;
-import extraclase.conectivity.ListaMensajes.Mensaje;
+
 
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 import static java.lang.System.*;
 
@@ -50,19 +53,21 @@ public class server{
 
     private void procesarEntrada(String entrada) {
         String[] datos = entrada.split("#");
-        int puerto = Integer.parseInt(datos[1]);
+
         String remitente = datos[2];
-        //out.println("EL mensaje fue: " + datos[0]);
-        //out.println("El puerto fue: " + puerto);
-        this.agregarMensaje(remitente, datos[0], "15:30");
+        Date hora = Calendar.getInstance().getTime();
+        DateFormat dateFormat = new SimpleDateFormat("hh:mm:ss");
+        String strHora = dateFormat.format(hora);
+        // mensaje + puerto del remitente + hora actual
+        this.agregarMensaje(datos[0], remitente, strHora);
 
     }
 
-    private void agregarMensaje(String remitente, String mensaje, String hora){
+    private void agregarMensaje( String mensaje, String remitente, String hora){
         int index = 0;
         if(this.listaConversaciones[4]!=null){
-            index = 4;
-            out.println("La lista de conversaciones");
+             out.println("La lista de conversaciones esta llena");
+             return;
         }
 
         while(index  < 5) {
@@ -70,7 +75,7 @@ public class server{
             if (this.listaConversaciones[index] == null) {
                 this.listaConversaciones[index] = new Conversacion();
                 this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
-                out.println("Se crea una nueva conversacion con: " + remitente+ " mensaje: "+ mensaje + " en la posicion " + index  + "(" + this.listaConversaciones[index].cantidadMensajes + ")" );
+                //out.println("Se crea una nueva conversacion con: " + remitente+ " mensaje: "+ mensaje + " en la posicion " + index  + "(" + this.listaConversaciones[index].cantidadMensajes + ")" );
 
                 break;
 
@@ -80,7 +85,7 @@ public class server{
 
                 if (this.listaConversaciones[index].getRemitente().equals(remitente)) {
                     this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
-                    out.println("Se agrega mensaje recibido: " + mensaje + " a la conversacion con: " + remitente + " en la posicion " + index +"(" + this.listaConversaciones[index].cantidadMensajes+")" );
+                    //out.println("Se agrega mensaje recibido: " + mensaje + " a la conversacion con: " + remitente + " en la posicion " + index +"(" + this.listaConversaciones[index].cantidadMensajes+")" );
                     break;
 
                 }
