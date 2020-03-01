@@ -107,6 +107,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
@@ -302,7 +303,7 @@
       <workItem from="1582342446969" duration="16109000" />
       <workItem from="1582833340538" duration="3667000" />
       <workItem from="1582342446969" duration="12062000" />
-      <workItem from="1583025868243" duration="9999000" />
+      <workItem from="1583025868243" duration="10752000" />
     </task>
     <servers />
   </component>

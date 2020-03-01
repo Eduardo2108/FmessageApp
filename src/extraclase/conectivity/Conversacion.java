@@ -8,8 +8,12 @@ public class Conversacion {
     private Client enviador;
     private String nombreRemitente;
     public int cantidadMensajes = 0;
+    private int puertoRemitente;
 
-
+    public Conversacion(int puertoRemitente){
+        enviador = new Client();
+        this.puertoRemitente = puertoRemitente;
+    }
     public void recibirMensaje(String nombreRemitente, String mensaje, String hora) {
 
         if(cantidadMensajes == 0){
