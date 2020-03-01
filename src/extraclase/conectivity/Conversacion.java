@@ -7,7 +7,7 @@ public class Conversacion {
     private ListaMensajes mensajes;
     private Client enviador;
     private String nombreRemitente;
-    private int cantidadMensajes = 0;
+    public int cantidadMensajes = 0;
 
 
     public void recibirMensaje(String nombreRemitente, String mensaje, String hora) {

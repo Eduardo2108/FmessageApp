@@ -65,11 +65,13 @@ public class server{
             out.println("La lista de conversaciones");
         }
 
-        while(index != 4) {
+        while(index  < 5) {
+
             if (this.listaConversaciones[index] == null) {
                 this.listaConversaciones[index] = new Conversacion();
                 this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
-                out.println("Se agrega mensaje recibido: " + mensaje + " a la conversacion con: " + remitente);
+                out.println("Se crea una nueva conversacion con: " + remitente+ " mensaje: "+ mensaje + " en la posicion " + index  + "(" + this.listaConversaciones[index].cantidadMensajes + ")" );
+
                 break;
 
 
@@ -78,7 +80,7 @@ public class server{
 
                 if (this.listaConversaciones[index].getRemitente().equals(remitente)) {
                     this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
-                    out.println("Se crea una nueva conversacion con: " + remitente+ " mensaje: "+ mensaje  );
+                    out.println("Se agrega mensaje recibido: " + mensaje + " a la conversacion con: " + remitente + " en la posicion " + index +"(" + this.listaConversaciones[index].cantidadMensajes+")" );
                     break;
 
                 }

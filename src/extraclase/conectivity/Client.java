@@ -19,12 +19,12 @@ public class Client {
         Client m = new Client();
 
         m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
-        m.sendMessage("Hola mundo x2", 100, 50, "Juan");
-        m.sendMessage("Hola mundo x2", 100, 50, "Miguel");
-        m.sendMessage("Hola mundo x2", 100, 50, "Carlos");
+        m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
+        m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
+        m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
        // m.sendMessage("Hola mundo x2", 100, 50, "Ricardo");
         //m.sendMessage("Hola mundo x2", 100, 50, "Juan");
-        //m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
+        m.sendMessage("Hola mundo x2", 100, 50, "Eduardo");
         //m.sendMessage("Hola mundo x2", 100, 50, "Juan");
     }
 }
