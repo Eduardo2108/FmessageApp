@@ -16,9 +16,11 @@ import static java.lang.System.*;
  * Esta clase se encarga de recibir los mensajes entrantes y procesarlos y pasarlos a la clase Conversacion segun corresponda
  */
 public class server  {
+
+
     private boolean flag = false;
     private ServerSocket receptorMensajes = null;
-    private Conversacion[] listaConversaciones = new Conversacion[5];
+    public static Conversacion[] listaConversaciones = new Conversacion[5];
     private int min = 100, max = 110;
 
 
@@ -83,28 +85,25 @@ public class server  {
     private void agregarMensaje(String mensaje, String remitente, String hora, int puertoRemitente) {
         int index = 0;
         boolean flag = true;
-        if (this.listaConversaciones[4] != null) {
+        if (listaConversaciones[4] != null) {
             out.println("La lista de conversaciones esta llena");
             return;
         }
 
         while (index < 5 && flag) {
 
-            if (this.listaConversaciones[index] == null) {
-                /**
-                 * Se crea una instancia nueva de la conversacion en el array
-                 */
-                this.listaConversaciones[index] = new Conversacion(puertoRemitente);
-                this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
+            if (listaConversaciones[index] == null) {
+                listaConversaciones[index] = new Conversacion(puertoRemitente);
+                listaConversaciones[index].addMessage(remitente, mensaje, hora, 2);
                  flag= false;
 
 
             } else {
-                /**
-                 * Se carga el mensaje en una instancia ya existente de la Conversacion
-                 */
-                if (this.listaConversaciones[index].getRemitente().equals(remitente)) {
-                    this.listaConversaciones[index].recibirMensaje(remitente, mensaje, hora);
+
+                 // Se carga el mensaje en una instancia ya existente de la Conversacion
+
+                if (listaConversaciones[index].getRemitente().equals(remitente)) {
+                    listaConversaciones[index].addMessage(remitente, mensaje, hora, 2);
                     flag= false;
 
                 }

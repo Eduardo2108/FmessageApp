@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -138,12 +143,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/conectivity/ListaMensajes/historial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/extraclase/conectivity/Main.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/extraclase/conectivity/conversaciones/listaConversaciones.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/conectivity/historial/ListaMensajes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/conectivity/historial/Mensaje.java">
           <value>
             <set />
           </value>

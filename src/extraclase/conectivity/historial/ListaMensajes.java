@@ -1,4 +1,4 @@
-package extraclase.conectivity.ListaMensajes;
+package extraclase.conectivity.historial;
 
 public class ListaMensajes {
 
@@ -6,24 +6,22 @@ public class ListaMensajes {
     private int largo;
 
 
-    public void agregarMensaje(String texto, String hora) {
-        Mensaje mensajeNuevo = new Mensaje(texto, hora);
+    public void agregarMensaje(String texto, String hora,int key) {
+        Mensaje mensajeNuevo = new Mensaje(texto, hora, key);
         if (largo == 0) {
             this.head = mensajeNuevo;
             this.largo++;
-            //System.out.println("Mensaje #" + largo + " agregado" + "\n" + texto + " " + hora);
-        } else {
+         } else {
             Mensaje tmp = this.head;
             while (tmp.getSiguiente() != null) {
                 tmp = tmp.getSiguiente();
             }
             tmp.setSiguiente(mensajeNuevo);
             this.largo++;
-            //System.out.println("Mensaje #" + largo + " agregado" + " " + hora);
-        }
+         }
     }
 
-    public ListaMensajes(String remitente) {
+    public ListaMensajes() {
 
         this.largo = 0;
         this.head = null;
