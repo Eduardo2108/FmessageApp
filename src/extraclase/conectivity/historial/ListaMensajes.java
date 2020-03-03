@@ -8,6 +8,7 @@ public class ListaMensajes {
 
     public void agregarMensaje(String texto, String hora,int key) {
         Mensaje mensajeNuevo = new Mensaje(texto, hora, key);
+
         if (largo == 0) {
             this.head = mensajeNuevo;
             this.largo++;

@@ -1,44 +1,51 @@
 package extraclase.conectivity;
 
-import extraclase.conectivity.Client;
-import extraclase.conectivity.server;
-import javafx.application.Application;
-
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Aplication {
 
     private server listener = new server();
-    private Client sender;
+    private Client sender = new Client();
     private int puertoActual;
     private String ID;
-    private Conversacion[] listaConversaciones = server.listaConversaciones;
-
+    private static Conversacion[] listaConversaciones = server.listaConversaciones;
     private void sendMessage(String mensaje, int puertoDestino, String nombreDestinatario) throws IOException {
         int i = 0;
         boolean flag = true;
+        System.out.println(Arrays.toString(listaConversaciones));
 
         while (i < 5 && flag) {
-            if (listaConversaciones[i].getRemitente().equals(nombreDestinatario)) {
-                listaConversaciones[i].sendMessage(mensaje, puertoDestino, ID);
-                flag = false;
-            } else {
-                if (listaConversaciones[i] == null) {
-                    listaConversaciones[i] = new Conversacion(puertoDestino);
-                    listaConversaciones[i].sendMessage(mensaje, puertoDestino, ID);
+            Conversacion temp = listaConversaciones[i];
+            if(temp == null){
+                listaConversaciones[i] = new Conversacion(puertoDestino);
+                listaConversaciones[i].sendMessage(mensaje,puertoDestino,this.ID);
+                System.out.println("mensaje enviado, primer if");
+                break;
+            }
+            else{
+                if(temp.getPuerto() == puertoDestino){
+                    listaConversaciones[i].sendMessage(mensaje,puertoDestino,this.ID);
+                    System.out.println("Mensje enviado sengundo if");
+                    break;
+
+                }
+                else{
+                    System.out.println("Avanzando a el siguiente elemento");
+                    i++;
                 }
             }
-            i++;
         }
     }
+
     private void start() {
         this.listener.start();
 
     }
 
-    public static void main(String[] args) {
-        Aplication app = new Aplication();
-         app.start();
+    public static void main(String[] args) throws IOException {
+
     }
+
 
 }

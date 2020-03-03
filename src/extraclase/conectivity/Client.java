@@ -19,6 +19,11 @@ public class Client {
 
         }
     }
+
+    public static void main(String[] args) throws IOException {
+        Client s =  new Client();
+        s.sendMessage("hola mimigo",101,500,  "Juan");
+    }
 }
 
 

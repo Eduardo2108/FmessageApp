@@ -31,6 +31,13 @@ public class Conversacion {
             mensajes = new ListaMensajes( );
             mensajes.agregarMensaje(mensaje, hora, key);
             this.cantidadMensajes++;
+
+            String tipo = "Enviado";
+            if(key == 2){
+                tipo = "Recibido";
+            }
+            System.out.println("Mensaje " + tipo + " a las: " + hora + ", Mensaje: " + mensaje);
+
         } else {
             mensajes.agregarMensaje(mensaje, hora, key);
             this.cantidadMensajes++;
@@ -57,5 +64,11 @@ public class Conversacion {
 
     public int getPuerto() {
         return this.puertoDestino;
+    }
+
+    public static void main(String[] args) throws IOException {
+        Conversacion c = new Conversacion(100);
+        c.sendMessage("Hola mimigo", 100, "E$");
+
     }
 }
