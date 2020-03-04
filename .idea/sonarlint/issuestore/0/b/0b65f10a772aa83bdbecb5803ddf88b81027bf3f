@@ -1,0 +1,8 @@
+
+Nsquid:S1068"0Remove this unused "puertoActual" private field.(®—¨8Ø¹§‰.
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¢ß«úıÿÿÿÿ8®Äú¥‰.
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ñÏ‰ôùÿÿÿÿ8®Äú¥‰.
+esquid:UselessImportCheck";Remove this unused import 'javafx.application.Application'.(í™şj8É­Ï¨‰.
+asquid:UnusedPrivateMethod"0Remove this unused private "sendMessage" method.(ğ´ºşÿÿÿÿ8¢²‰.
+lsquid:S00116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ŞÒï8æ…Š¦‰.
+Hsquid:S1068"*Remove this unused "sender" private field.(í£ô›8Ø¹§‰.

@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Ajustes en Aplicacion">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/charm_glisten_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015e0d39ea5656b8556c7c3aedc00ad0f338b8eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b65f10a772aa83bdbecb5803ddf88b81027bf3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a6e827c0ec51f684416dc82899868493dd38d67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/751bd2a9cde5af98632644d4fffa3e72021f3972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7af9c93d6524cb66ca49d84f838f2f6fa60e0880" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899e69c01e2d765952b082b83d6f454449e02a34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d4e042f10ff724291dd4ca1f110cb0b96d32a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6b9de4140696178105fc866854c1a06603576e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e954071fbc89208f5a7eae68c639f42b6ee35e35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extraclase/gui/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/historial/ListaMensajes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/historial/ListaMensajes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FmessageApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FmessageApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FmessageApp/extraclase/gui/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ux.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,21 +133,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/extraclase/gui" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="FmessageApp.conectivity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eduar\Desktop\FmessageApp\src\extraclase\gui" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aplication">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -210,13 +226,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraclase.conectivity.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraclase.gui.Main" />
       <module name="FmessageApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extraclase.conectivity.*" />
+          <option name="PATTERN" value="extraclase.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,19 +309,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.server (1)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Aplication" />
       <item itemvalue="Application.Conversacion" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Aplication" />
         <item itemvalue="Application.server (1)" />
         <item itemvalue="Application.Conversacion" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +342,8 @@
       <workItem from="1582833340538" duration="3667000" />
       <workItem from="1582342446969" duration="12062000" />
       <workItem from="1583025868243" duration="23366000" />
-      <workItem from="1583258585521" duration="3753000" />
+      <workItem from="1583258585521" duration="6764000" />
+      <workItem from="1583288437545" duration="11576000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -363,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583085400078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8">
+      <created>1583262672631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583262672631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +424,8 @@
     <MESSAGE value="afinada la clase persona, se envia y reciben mesajes a traves de ella" />
     <MESSAGE value="Threading para la clase server" />
     <MESSAGE value="Ajustes en Aplicacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes en Aplicacion" />
+    <MESSAGE value="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
