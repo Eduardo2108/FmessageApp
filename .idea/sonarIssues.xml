@@ -188,7 +188,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/gui/botonMensajes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/extraclase/gui/ux.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipalController.java">
           <value>
             <set />
           </value>
