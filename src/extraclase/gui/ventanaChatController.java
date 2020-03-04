@@ -46,15 +46,23 @@ public class ventanaChatController {
     }
     @FXML private TextField d1;
     @FXML private ListView lst;
+    @FXML private Label puertoLabel;
+
     private int puerto;
     public void sendMessagePressed(javafx.scene.input.MouseEvent mouseEvent) throws IOException {
         Client.sendMessage(entradaTexto.getText(), puerto, puerto, "Remitente");
-        lst.getItems().add("Tu: " + entradaTexto.getText());
+        lst.getItems().add("Tu a el puerto " +": " + puerto + entradaTexto.getText());
+    }
+
+    public void addMensaje(String msj, int puerto){
+        lst.getItems().add("Puerto " + puerto + ": " + msj);
+
     }
     public void puertoOKpressed() {
         try{
             System.out.println(d1.getText());
             puerto = Integer.parseInt( d1.getText());
+            puertoLabel.setText(d1.getText());
         }
         catch (Exception e){
             System.out.println(e.getCause());

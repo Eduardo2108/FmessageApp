@@ -26,7 +26,10 @@
                         <Font name="System Bold Italic" size="23.0" />
                     </font>
                 </Label>
-            <Label fx:id="puertoLabel" layoutX="111.0" layoutY="203.0" text="puerto" />
+            <Label fx:id="puertoLabel" layoutX="125.0" layoutY="203.0" text="==">
+               <font>
+                  <Font size="26.0" />
+               </font></Label>
             <ToolBar layoutX="35.0" layoutY="445.0" prefHeight="40.0" prefWidth="189.0">
                <items>
                   <TextField fx:id="d1" layoutX="10.0" prefHeight="26.0" prefWidth="110.0" text="Indique el puerto" />
@@ -34,6 +37,11 @@
                   <Button mnemonicParsing="false" onMousePressed="#puertoOKpressed" prefHeight="26.0" prefWidth="34.0" text="OK" />
                </items>
             </ToolBar>
+            <Label fx:id="puertoLabel1" layoutX="31.0" layoutY="203.0" text="Puerto:">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
             </children>
         </Pane>
         <Separator layoutX="247.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="1.0" />
@@ -41,7 +49,7 @@
          <children>
             <ToolBar layoutX="3.0" layoutY="510.0" prefHeight="40.0" prefWidth="550.0">
               <items>
-                  <TextField fx:id="entradaTexto" layoutX="10.0" prefHeight="26.0" prefWidth="394.0" promptText="Escriba su mensaje" />
+                  <TextField fx:id="" layoutX="10.0" prefHeight="26.0" prefWidth="394.0" promptText="Escriba su mensaje" />
                   <Pane prefWidth="70.0" />
                 <Button mnemonicParsing="false" onMousePressed="#sendMessagePressed" prefHeight="26.0" prefWidth="61.0" text="Enviar" />
               </items>

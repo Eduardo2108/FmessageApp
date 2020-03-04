@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Fix general">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="se envian mensajes a traves de la gui, y se reciben">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
     </list>
     <list id="eda696a8-c38a-42a0-84c9-e2847e596df4" name="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;" comment="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d">
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,13 +117,13 @@
       <ranges>
         <range start1="2" end1="3" start2="2" end2="2" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
         <range start1="4" end1="6" start2="3" end2="3" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="7" end1="8" start2="4" end2="4" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="10" end1="11" start2="6" end2="8" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="12" end1="16" start2="9" end2="9" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="18" end1="46" start2="11" end2="12" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="47" end1="50" start2="13" end2="18" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="51" end1="59" start2="19" end2="26" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="60" end1="70" start2="27" end2="27" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="10" end1="11" start2="7" end2="9" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="12" end1="16" start2="10" end2="10" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="18" end1="46" start2="12" end2="13" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="48" end1="48" start2="15" end2="17" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="51" end1="52" start2="20" end2="21" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="53" end1="53" start2="22" end2="27" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="57" end1="57" start2="31" end2="32" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/src/extraclase/gui/Main.java">
@@ -135,19 +134,9 @@
         <range start1="14" end1="18" start2="13" end2="14" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
         <range start1="19" end1="19" start2="15" end2="16" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
         <range start1="20" end1="26" start2="17" end2="17" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="28" end1="28" start2="19" end2="20" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="38" end1="39" start2="30" end2="31" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="41" end1="42" start2="33" end2="34" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="45" end1="46" start2="37" end2="38" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java">
-      <ranges>
-        <range start1="4" end1="4" start2="4" end2="6" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="5" end1="6" start2="7" end2="8" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="12" end1="18" start2="14" end2="14" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="45" end1="47" start2="41" end2="43" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="51" end1="51" start2="47" end2="52" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="33" end1="41" start2="24" end2="24" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="42" end1="43" start2="25" end2="26" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+        <range start1="46" end1="47" start2="29" end2="30" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
       </ranges>
     </file>
   </component>
@@ -458,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583362265762</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="se envian mensajes a traves de la gui, y se reciben">
+      <created>1583365188889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583365188890</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +497,8 @@
     <MESSAGE value="#11, boton para iniciar conversacion" />
     <MESSAGE value="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d" />
     <MESSAGE value="Fix general" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix general" />
+    <MESSAGE value="se envian mensajes a traves de la gui, y se reciben" />
+    <option name="LAST_COMMIT_MESSAGE" value="se envian mensajes a traves de la gui, y se reciben" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
