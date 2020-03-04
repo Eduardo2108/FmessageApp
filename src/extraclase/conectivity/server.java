@@ -81,10 +81,7 @@ public class server extends Thread {
     private void agregarMensaje(String mensaje, String remitente, String hora, int puertoRemitente) {
         int index = 0;
         boolean flag = true;
-        if (listaConversaciones[4] != null) {
-            out.println("La lista de conversaciones esta llena");
-            return;
-        }
+
 
         while (index < 5 && flag) {
 
@@ -126,7 +123,7 @@ public class server extends Thread {
             }
         }
         catch (IOException a){
-            out.println(a);
+            out.println(a.getMessage());
         }
 
 

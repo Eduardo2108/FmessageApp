@@ -17,10 +17,10 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("ux.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root));
-        /*
-        Creacion de dialogo que solicita el nombre del usuario.
 
-        TextInputDialog dialog = new TextInputDialog("walter");
+
+
+        TextInputDialog dialog = new TextInputDialog();
         dialog.setTitle("Inicio de sesión");
         dialog.setHeaderText("Esto no es un nombre de usuario ni un pin, \neste nombre sera visible para sus contactos :)");
         dialog.setContentText("Digite su nombre de usuario (No puede tener simbolos ni números");
@@ -28,7 +28,6 @@ public class Main extends Application {
         //Obtencion del dato del nombre...
         Optional<String> result = dialog.showAndWait();
         result.ifPresent(name -> System.out.println("Your name: " + name));
-*/
 
 
 

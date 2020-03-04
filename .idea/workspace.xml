@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/charm_glisten_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015e0d39ea5656b8556c7c3aedc00ad0f338b8eb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b65f10a772aa83bdbecb5803ddf88b81027bf3f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a6e827c0ec51f684416dc82899868493dd38d67" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/751bd2a9cde5af98632644d4fffa3e72021f3972" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7af9c93d6524cb66ca49d84f838f2f6fa60e0880" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899e69c01e2d765952b082b83d6f454449e02a34" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d4e042f10ff724291dd4ca1f110cb0b96d32a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6b9de4140696178105fc866854c1a06603576e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e954071fbc89208f5a7eae68c639f42b6ee35e35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extraclase/gui/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="ya se puede solicitar el puerto a enviar mensajes, desde la gui">
+      <change afterPath="$PROJECT_DIR$/resources/images/add.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FmessageApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FmessageApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FmessageApp/extraclase/gui/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ux.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ux.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ux.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +111,14 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Y5K847NSER0cCiRiM6C2LAJRjJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -138,6 +131,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/extraclase/gui" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -343,7 +337,7 @@
       <workItem from="1582342446969" duration="12062000" />
       <workItem from="1583025868243" duration="23366000" />
       <workItem from="1583258585521" duration="6764000" />
-      <workItem from="1583288437545" duration="11576000" />
+      <workItem from="1583288437545" duration="16726000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -387,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583262672631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ya se puede solicitar el puerto a enviar mensajes, desde la gui">
+      <created>1583338241125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583338241125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +419,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI" />
     <MESSAGE value="Se agrega metodo enviar mensaje a la clase aplicacion" />
@@ -425,7 +427,8 @@
     <MESSAGE value="Threading para la clase server" />
     <MESSAGE value="Ajustes en Aplicacion" />
     <MESSAGE value="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8" />
+    <MESSAGE value="ya se puede solicitar el puerto a enviar mensajes, desde la gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="ya se puede solicitar el puerto a enviar mensajes, desde la gui" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

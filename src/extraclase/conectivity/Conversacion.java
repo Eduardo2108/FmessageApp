@@ -3,8 +3,10 @@ package extraclase.conectivity;
 import extraclase.conectivity.historial.ListaMensajes;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -21,6 +23,9 @@ public class Conversacion {
     public Conversacion(int puertoDestino) {
         enviador = new Client();
         this.puertoDestino = puertoDestino;
+        System.out.println("Nueva conversacion con el puerto: " + this.puertoDestino);
+
+        System.out.println(Arrays.toString(server.listaConversaciones));
     }
 
     public void addMessage(String nombreDestinatario, String mensaje, String hora, int key) {
