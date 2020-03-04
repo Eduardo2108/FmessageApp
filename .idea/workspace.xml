@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Ya se envian mensajes">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Se envian mensajes y aparecen en pantalla">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/exe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/botonMensajes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/exe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipalController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +106,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/server.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/App.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -240,10 +243,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="exe" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extraclase.gui.exe" />
       <module name="FmessageApp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="extraclase.gui.*" />
@@ -335,7 +337,7 @@
       <workItem from="1582342446969" duration="12062000" />
       <workItem from="1583025868243" duration="23366000" />
       <workItem from="1583258585521" duration="6764000" />
-      <workItem from="1583288437545" duration="28634000" />
+      <workItem from="1583288437545" duration="31449000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -400,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583357361413</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se envian mensajes y aparecen en pantalla">
+      <created>1583359222801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583359222801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +451,8 @@
     <MESSAGE value="ya se puede solicitar el puerto a enviar mensajes, desde la gui" />
     <MESSAGE value="#11, boton para iniciar conversacion" />
     <MESSAGE value="Ya se envian mensajes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ya se envian mensajes" />
+    <MESSAGE value="Se envian mensajes y aparecen en pantalla" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se envian mensajes y aparecen en pantalla" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

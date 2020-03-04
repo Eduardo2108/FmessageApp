@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class Client {
 
-    public void sendMessage(String message, int port, int actualPort, String remitente) throws IOException {
+    public static void sendMessage(String message, int port, int actualPort, String remitente) throws IOException {
         try {
             Socket client = new Socket("127.0.0.1", port);
             OutputStreamWriter writer = new OutputStreamWriter(client.getOutputStream());
@@ -20,10 +20,7 @@ public class Client {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        Client s =  new Client();
-        s.sendMessage("hola mimigo",101,500,  "Juan");
-    }
+
 }
 
 

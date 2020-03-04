@@ -2,11 +2,13 @@ package extraclase.gui;
 
 import extraclase.conectivity.Conversacion;
 import extraclase.conectivity.server;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextInputDialog;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
@@ -15,14 +17,14 @@ import java.awt.event.ActionEvent;
 import java.util.Optional;
 
 public class ventanaPrincipalController {
-
+    @FXML private Label puertoID;
     public void nuevaConversacionPresionado( MouseEvent event) {
 
         //Obtencion del dato del puerto para Enviar...
         try {
 
             TextInputDialog dialog = new TextInputDialog();
-
+/*
             dialog.setTitle("Nueva conversacion");
             dialog.setHeaderText("Digite el puerto del destinatario");
 
@@ -32,17 +34,10 @@ public class ventanaPrincipalController {
             Optional<String> result = dialog.showAndWait();
             int puertoDestino = Integer.parseInt(result.get());
 
+*/
             Conversacion[] lista = server.listaConversaciones;
             //bucle para agregar la conversacion a la lista
-            int i = 0;
-            while (i < 5) {
-                if (lista[i] == null) {
-                    lista[i] = new Conversacion(puertoDestino);
 
-                    break;
-                } else {
-                    i++;
-                }
 
                 Parent vistaChat = FXMLLoader.load(getClass().getResource("ventanaChat.fxml"));
                 Scene chat = new Scene(vistaChat);
@@ -53,7 +48,7 @@ public class ventanaPrincipalController {
                 window.setScene(chat);
                 window.show();
                 System.out.println("Se hace cambio de ventana");
-            }
+
         }
         catch (IllegalArgumentException e) {
             System.out.println("Error en el dato");
@@ -65,7 +60,7 @@ public class ventanaPrincipalController {
 
             alert.showAndWait();
         } catch (Exception i) {
-            System.out.println("Error: " + i.getMessage());
+            System.out.println(i.getMessage());
         }
     }
 

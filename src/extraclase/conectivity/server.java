@@ -1,5 +1,7 @@
 package extraclase.conectivity;
 
+import extraclase.gui.ventanaChatController;
+
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.BufferedReader;
@@ -75,6 +77,10 @@ public class server extends Thread {
 
         // mensaje + puerto del remitente + hora actual
         this.agregarMensaje(mensaje, remitente, strHora, puertoRemitente);
+
+        //instancia para agregar mensajes o asi
+        ventanaChatController v = new ventanaChatController();
+        v.agregarMensaje(false,mensaje,remitente);
 
     }
 

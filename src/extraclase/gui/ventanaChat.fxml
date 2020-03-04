@@ -14,7 +14,7 @@
 
 <AnchorPane id="side-bar" prefHeight="550.0" prefWidth="800.0" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="extraclase.gui.ventanaChatController">
     <children>
-        <Pane id="side-bar" cacheShape="false" centerShape="false" layoutX="-4.0" scaleShape="false" styleClass="side-bar" stylesheets="@Stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="554.0" AnchorPane.topAnchor="0.0">
+        <Pane id="side-bar" fx:id="puertoSelected" cacheShape="false" centerShape="false" layoutX="-4.0" scaleShape="false" styleClass="side-bar" stylesheets="@Stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="554.0" AnchorPane.topAnchor="0.0">
             <children>
                 <ImageView fitHeight="92.0" fitWidth="120.0" layoutX="79.0" layoutY="14.0" preserveRatio="true">
                     <image>
@@ -26,6 +26,14 @@
                         <Font name="System Bold Italic" size="23.0" />
                     </font>
                 </Label>
+            <Label fx:id="puertoLabel" layoutX="111.0" layoutY="203.0" text="puerto" />
+            <ToolBar layoutX="35.0" layoutY="445.0" prefHeight="40.0" prefWidth="189.0">
+               <items>
+                  <TextField fx:id="d1" layoutX="10.0" prefHeight="26.0" prefWidth="110.0" text="Indique el puerto" />
+                  <Pane prefHeight="18.0" prefWidth="14.0" />
+                  <Button mnemonicParsing="false" onMousePressed="#puertoOKpressed" prefHeight="26.0" prefWidth="34.0" text="OK" />
+               </items>
+            </ToolBar>
             </children>
         </Pane>
         <Separator layoutX="247.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="1.0" />
