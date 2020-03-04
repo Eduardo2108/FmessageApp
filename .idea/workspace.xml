@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Se envian mensajes y aparecen en pantalla">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Fix general">
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
+    </list>
+    <list id="eda696a8-c38a-42a0-84c9-e2847e596df4" name="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;" comment="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d">
+      <change afterPath="$PROJECT_DIR$/src/extraclase/gui/botonMensajes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/exe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/Aplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/exe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipalController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,19 @@
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/server.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/App.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java">
+      <ranges>
+        <range start1="2" end1="6" start2="2" end2="2" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="7" end1="9" start2="3" end2="3" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="10" end1="16" start2="4" end2="5" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="19" end1="22" start2="8" end2="8" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="24" end1="26" start2="10" end2="11" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="27" end1="66" start2="12" end2="12" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
+        <range start1="67" end1="67" start2="13" end2="17" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
+      </ranges>
+    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Y5K847NSER0cCiRiM6C2LAJRjJ" />
@@ -161,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.exe">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -307,11 +321,9 @@
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Aplication" />
       <item itemvalue="Application.Conversacion" />
-      <item itemvalue="Application.exe" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.exe" />
         <item itemvalue="Application.Aplication" />
         <item itemvalue="Application.server (1)" />
         <item itemvalue="Application.Conversacion" />
@@ -450,9 +462,8 @@
     <MESSAGE value="Finalizada la primera version de la logica del programa, falta realizar la GUI.&#10;&#10;#7 #8" />
     <MESSAGE value="ya se puede solicitar el puerto a enviar mensajes, desde la gui" />
     <MESSAGE value="#11, boton para iniciar conversacion" />
-    <MESSAGE value="Ya se envian mensajes" />
-    <MESSAGE value="Se envian mensajes y aparecen en pantalla" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se envian mensajes y aparecen en pantalla" />
+    <MESSAGE value="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -65,6 +65,10 @@ public class ventanaChatController {
 
         lst.getItems().add(prefix + " "+mensaje + "                  hora: " + strHora          );
     }
+
+    public void puertoOKpressed(MouseEvent mouseEvent) {
+
+    }
 }
 
 
