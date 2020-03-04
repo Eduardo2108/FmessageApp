@@ -45,29 +45,20 @@ public class ventanaChatController {
         }
     }
     @FXML private TextField d1;
-    @FXML private Label puertoLabel;
-    public void puertoOKpressed(javafx.scene.input.MouseEvent event){
-        puertoLabel.setText(d1.getText());
+    @FXML private ListView lst;
+    private int puerto;
+    public void sendMessagePressed(javafx.scene.input.MouseEvent mouseEvent) throws IOException {
+        Client.sendMessage(entradaTexto.getText(), puerto, puerto, "Remitente");
+        lst.getItems().add("Tu: " + entradaTexto.getText());
     }
-
-
-
-
-    public void agregarMensaje(boolean enviado, String mensaje, String Name){
-        String prefix = "You: ";
-        if(!enviado){
-            prefix = Name;
+    public void puertoOKpressed() {
+        try{
+            System.out.println(d1.getText());
+            puerto = Integer.parseInt( d1.getText());
         }
-        //Obtener la hora
-        Date hora = Calendar.getInstance().getTime();
-        DateFormat dateFormat = new SimpleDateFormat("hh:mm:ss");
-        String strHora = dateFormat.format(hora);
-
-        lst.getItems().add(prefix + " "+mensaje + "                  hora: " + strHora          );
-    }
-
-    public void puertoOKpressed(MouseEvent mouseEvent) {
-
+        catch (Exception e){
+            System.out.println(e.getCause());
+        }
     }
 }
 

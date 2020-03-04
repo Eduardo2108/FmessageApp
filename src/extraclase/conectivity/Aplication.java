@@ -3,6 +3,8 @@ package extraclase.conectivity;
 import java.io.IOException;
 import java.util.Arrays;
 
+import static javafx.application.Application.launch;
+
 public class App {
 
     private server listener = new server();
@@ -43,8 +45,8 @@ public class App {
             }
         }
     }
-
-    private void start() {
+    @Override
+    public void start() {
         this.listener.start();
 
     }

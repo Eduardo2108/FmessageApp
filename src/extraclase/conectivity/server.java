@@ -17,7 +17,7 @@ import static java.lang.System.*;
 /**
  * Esta clase se encarga de recibir los mensajes entrantes y procesarlos y pasarlos a la clase Conversacion segun corresponda
  */
-public class server extends Thread {
+public class server {
 
 
     private boolean flag = false;
@@ -80,7 +80,6 @@ public class server extends Thread {
 
         //instancia para agregar mensajes o asi
         ventanaChatController v = new ventanaChatController();
-        v.agregarMensaje(false,mensaje,remitente);
 
     }
 
@@ -112,27 +111,33 @@ public class server extends Thread {
             }
         }
     }
-    @Override
+
     public void run(){
-        try {
-            out.println("listening...");
-            boolean active = true;
+       Thread t = new Thread(new Runnable() {
+           @Override
+           public void run() {
+               try {
+                   out.println("listening...");
+                   boolean active = true;
 
-            while (active) {
-                Socket entrada = receptorMensajes.accept();
-                BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
-                String mensaje = lector.readLine();
-                procesarEntrada(mensaje);
-                entrada.close();
-
-
-            }
-        }
-        catch (IOException a){
-            out.println(a.getMessage());
-        }
+                   while (active) {
+                       Socket entrada = receptorMensajes.accept();
+                       BufferedReader lector = new BufferedReader(new InputStreamReader(entrada.getInputStream()));
+                       String mensaje = lector.readLine();
+                       procesarEntrada(mensaje);
+                       entrada.close();
 
 
+                   }
+               }
+               catch (IOException a){
+                   out.println(a.getMessage());
+               }
+
+
+           }
+       });
+       t.start();
     }
 
 
