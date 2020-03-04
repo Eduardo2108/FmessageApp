@@ -1,5 +1,5 @@
 package extraclase.gui;
-
+import extraclase.conectivity.App;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,7 +10,16 @@ import javafx.stage.Stage;
 import java.util.Optional;
 
 
-public class Main extends Application {
+public class exe extends Application {
+    private static App app;
+
+
+    public static App getApp() {
+        return app;
+    }
+
+    String name;
+    int puerto;
     @Override
     public void start(Stage primeraEscena) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("ventanaPrincipal.fxml"));
@@ -23,7 +32,7 @@ public class Main extends Application {
         dialog.setHeaderText("Esto no es un nombre de usuario ni un pin, \neste nombre sera visible para sus contactos :)");
         dialog.setContentText("Digite su nombre de usuario (No puede tener simbolos ni números");
         Optional<String> result = dialog.showAndWait();
-        result.ifPresent(name -> System.out.println("Your name: " + name));
+        this.name = result.get();
 
 
      //   botonMensajes boton = new botonMensajes(54);

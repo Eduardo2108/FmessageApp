@@ -3,14 +3,20 @@ package extraclase.conectivity;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class Aplication {
+public class App {
 
     private server listener = new server();
     private Client sender = new Client();
     private int puertoActual;
     private String ID;
     private static Conversacion[] listaConversaciones = server.listaConversaciones;
-    private void sendMessage(String mensaje, int puertoDestino, String nombreDestinatario) throws IOException {
+
+    public App(int puerto, String name){
+        this.puertoActual = puerto;
+        this.ID = name;
+    }
+
+    public void sendMessage(String mensaje, int puertoDestino, String nombreDestinatario) throws IOException {
         int i = 0;
         boolean flag = true;
         System.out.println(Arrays.toString(listaConversaciones));
@@ -42,10 +48,5 @@ public class Aplication {
         this.listener.start();
 
     }
-
-    public static void main(String[] args) throws IOException {
-
-    }
-
 
 }
