@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="se envian mensajes a traves de la gui, y se reciben">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Commit Final, aun falta el NullPointerException">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015e0d39ea5656b8556c7c3aedc00ad0f338b8eb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/015e0d39ea5656b8556c7c3aedc00ad0f338b8eb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b65f10a772aa83bdbecb5803ddf88b81027bf3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b65f10a772aa83bdbecb5803ddf88b81027bf3f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7af9c93d6524cb66ca49d84f838f2f6fa60e0880" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7af9c93d6524cb66ca49d84f838f2f6fa60e0880" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6b9de4140696178105fc866854c1a06603576e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e954071fbc89208f5a7eae68c639f42b6ee35e35" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e954071fbc89208f5a7eae68c639f42b6ee35e35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/conectivity/server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraclase/gui/ventanaPrincipal.fxml" afterDir="false" />
     </list>
     <list id="eda696a8-c38a-42a0-84c9-e2847e596df4" name="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;" comment="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d">
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
@@ -111,34 +115,6 @@
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/Conversacion.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/extraclase/conectivity/server.java" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/extraclase/gui/ventanaChatController.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="2" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="4" end1="6" start2="3" end2="3" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="10" end1="11" start2="7" end2="9" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="12" end1="16" start2="10" end2="10" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="18" end1="46" start2="12" end2="13" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="48" end1="48" start2="15" end2="17" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="51" end1="52" start2="20" end2="21" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="53" end1="53" start2="22" end2="27" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="57" end1="57" start2="31" end2="32" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/extraclase/gui/Main.java">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="3" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="3" end1="4" start2="4" end2="4" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="7" end1="8" start2="7" end2="7" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="14" end1="18" start2="13" end2="14" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="19" end1="19" start2="15" end2="16" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="20" end1="26" start2="17" end2="17" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-        <range start1="33" end1="41" start2="24" end2="24" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="42" end1="43" start2="25" end2="26" changelist="cdb932d9-7e58-4d94-93a9-e7b232ef17da" />
-        <range start1="46" end1="47" start2="29" end2="30" changelist="eda696a8-c38a-42a0-84c9-e2847e596df4" />
-      </ranges>
-    </file>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Y5K847NSER0cCiRiM6C2LAJRjJ" />
@@ -383,6 +359,7 @@
       <workItem from="1583025868243" duration="23366000" />
       <workItem from="1583258585521" duration="6764000" />
       <workItem from="1583288437545" duration="26844000" />
+      <workItem from="1583516758819" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Se agrega el metodo de enviar mensajes en la conversacion, para agregarlos a la lista, asi como un identificador de los enviados y los recibidos, para la GUI">
       <created>1583045632334</created>
@@ -454,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583365188890</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit Final, aun falta el NullPointerException">
+      <created>1583366110300</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583366110300</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +482,8 @@
     <MESSAGE value="Revert &quot;Se envian mensajes y aparecen en pantalla&quot;&#10;&#10;This reverts commit ee77652d" />
     <MESSAGE value="Fix general" />
     <MESSAGE value="se envian mensajes a traves de la gui, y se reciben" />
-    <option name="LAST_COMMIT_MESSAGE" value="se envian mensajes a traves de la gui, y se reciben" />
+    <MESSAGE value="Commit Final, aun falta el NullPointerException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Final, aun falta el NullPointerException" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FmessageApp$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1582860360942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

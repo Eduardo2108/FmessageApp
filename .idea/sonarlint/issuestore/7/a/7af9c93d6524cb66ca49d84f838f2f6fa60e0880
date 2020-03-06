@@ -1,12 +1,11 @@
 
-Wsquid:S1161.":Add the "@Override" annotation above this method signature(ú¡­,8‡À×²‰.
-Ysquid:S2696\"6Make the enclosing method "static" or remove this set.(®§‹ôøÿÿÿÿ8ðº §‰.
-\squid:S1444"9Make this "public static listaConversaciones" field final(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
-~squid:S12170"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(ÌË¯Æ8‡À×²‰.
-@squid:S2386"Make this member "protected".(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
-™"squid:ClassVariableVisibilityCheck"_Make listaConversaciones a static final constant or non-public and provide accessors if needed.(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
-fsquid:S3551."IMake this method "synchronized" to match the parent class implementation.(ú¡­,8‡À×²‰.
-asquid:HiddenFieldCheckS"8Rename "flag" which hides the field declared at line 21.(Ö°š·8êáË¨‰.
-?squid:S1659"!Declare "max" on a separate line.(îòî»8Ü¯Ñ¥‰.
-Usquid:S2589v"7Remove this expression which always evaluates to "true"(©§»š8ª“Ð²‰.
-jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÕŽÈ’ûÿÿÿÿ
+Ysquid:S2696a"6Make the enclosing method "static" or remove this set.(®§‹ôøÿÿÿÿ8ðº §‰.
+Ksquid:S1604w"(Make this anonymous inner class a lambda(€á€‹þÿÿÿÿ8Žß¨¿Š.
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ê·€•
+™"squid:ClassVariableVisibilityCheck"_Make listaConversaciones a static final constant or non-public and provide accessors if needed.(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
+\squid:S1444"9Make this "public static listaConversaciones" field final(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
+@squid:S2386"Make this member "protected".(ŒäÀ­ýÿÿÿÿ8¸Öæ§‰.
+asquid:UselessImportCheck"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ˆ¶Ì¿Š.
+Usquid:S2589~"7Remove this expression which always evaluates to "true"(©§»š8Žß¨¿Š.
+?squid:S1659"!Declare "max" on a separate line.(îòî»8Ü¯Ñ¥‰.
+asquid:HiddenFieldCheck["8Rename "flag" which hides the field declared at line 24.(Ö°š·8êáË¨‰.

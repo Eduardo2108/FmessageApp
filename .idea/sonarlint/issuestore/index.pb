@@ -1,6 +1,4 @@
 
-T
-$src/extraclase/conectivity/Main.java,c\6\c6b9de4140696178105fc866854c1a06603576e8
 r
 Bsrc/extraclase/conectivity/conversaciones/listaConversaciones.java,9\6\96d4e042f10ff724291dd4ca1f110cb0b96d32a9
 c
@@ -17,3 +15,19 @@ V
 &src/extraclase/conectivity/server.java,7\a\7af9c93d6524cb66ca49d84f838f2f6fa60e0880
 V
 &src/extraclase/conectivity/Client.java,0\1\015e0d39ea5656b8556c7c3aedc00ad0f338b8eb
+W
+'.idea/libraries/charm_glisten_4_4_1.xml,1\f\1ff624ee409039fef8c4d597ab37c0fe234b2752
+?
+FmessageApp.iml,e\e\eea876675a6100d8a658c5f2ed3924a24fb17a51
+Q
+!src/extraclase/gui/Stylesheet.css,9\e\9e552389fd3944f762dab0dc94a92349d9b7c465
+b
+2src/extraclase/gui/ventanaPrincipalController.java,4\7\47415cff2672d74db4d45b12859ae698fa09ffb3
+S
+#src/extraclase/gui/ventanaChat.fxml,9\f\9f9ab3a1f02c7204e74c4ed5e0048927ec7184c2
+]
+-src/extraclase/gui/ventanaChatController.java,2\4\244c7a3cd9543d8a81adc327d566e5604ce2fb7f
+X
+(src/extraclase/gui/ventanaPrincipal.fxml,9\e\9ea6be35525f2400d191ae2d83d4a7bc81725883
+L
+src/extraclase/gui/Main.java,6\f\6fc44556e210b676fcb7d7f3ece678acec2b34b1

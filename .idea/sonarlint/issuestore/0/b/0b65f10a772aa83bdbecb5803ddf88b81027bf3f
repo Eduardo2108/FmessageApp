@@ -1,8 +1,13 @@
 
-Nsquid:S1068"0Remove this unused "puertoActual" private field.(®—¨8Ø¹§‰.
-„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¢ß«úıÿÿÿÿ8®Äú¥‰.
-„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ñÏ‰ôùÿÿÿÿ8®Äú¥‰.
-esquid:UselessImportCheck";Remove this unused import 'javafx.application.Application'.(í™şj8É­Ï¨‰.
-asquid:UnusedPrivateMethod"0Remove this unused private "sendMessage" method.(ğ´ºşÿÿÿÿ8¢²‰.
-lsquid:S00116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ŞÒï8æ…Š¦‰.
-Hsquid:S1068"*Remove this unused "sender" private field.(í£ô›8Ø¹§‰.
+Dsquid:S2440"&Remove this instantiation of "Client".(ÕñÆÕ8ø½Š.
+lsquid:S00116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ŞÒï8æ…Š¦‰.
+Nsquid:S1068"0Remove this unused "puertoActual" private field.(®—¨8Ø¹§‰.
+Usquid:S2589"7Remove this expression which always evaluates to "true"(¼ÎÄˆ8ø½Š.
+¤%squid:RedundantThrowsDeclarationCheck0"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8¹¨î¾Š.
+v
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(¼ÎÄˆ8ø½Š.
+\squid:S1172"9Remove this unused method parameter "nombreDestinatario".(´‘ó›üÿÿÿÿ8ø½Š.
+fsquid:S3551+"IMake this method "synchronized" to match the parent class implementation.(ú¡­,8¯ìê¾Š.
+^squid:S2134"@Don't extend "Thread", since the "run" method is not overridden.(ù›‡–8¯ìê¾Š.
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(ƒ“½8ø½Š.
+Hsquid:S1068"*Remove this unused "sender" private field.(ÕñÆÕ8ø½Š.
