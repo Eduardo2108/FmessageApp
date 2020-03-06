@@ -1,29 +1,20 @@
 package extraclase.gui;
-import extraclase.conectivity.App;
+
+import extraclase.conectivity.Aplication;
 import javafx.application.Application;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextInputDialog;
 import javafx.stage.Stage;
 
 import java.util.Optional;
 
 
-public class exe extends Application {
-    @FXML private Label nameLabel;
+public class Main extends Application {
 
-    private static App app;
+    private Aplication app = new Aplication();
 
-
-    public static App getApp() {
-        return app;
-    }
-
-    String name;
-    int puerto;
     @Override
     public void start(Stage primeraEscena) throws Exception{
         app.start();
@@ -36,7 +27,7 @@ public class exe extends Application {
         //Ajustes y actualizacion de la pantalla
         primeraEscena.setResizable(false);
         primeraEscena.show();
-     }
+    }
 
 
     public static void main(String[] args) {

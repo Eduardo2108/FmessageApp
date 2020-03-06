@@ -1,0 +1,5 @@
+
+jsquid:UselessImportCheck":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¤´§¾Š.
+Tsquid:S1172"1Remove this unused method parameter "mouseEvent".(†Í‘¥ıÿÿÿÿ8ø½Š.
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ö¡çøÿÿÿÿ8ø½Š.
+bsquid:UselessImportCheck	"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8øÌ§¾Š.

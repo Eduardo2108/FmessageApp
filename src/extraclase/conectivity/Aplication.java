@@ -5,19 +5,13 @@ import java.util.Arrays;
 
 import static javafx.application.Application.launch;
 
-public class App {
+public class Aplication extends Thread {
 
     private server listener = new server();
     private Client sender = new Client();
     private int puertoActual;
     private String ID;
     private static Conversacion[] listaConversaciones = server.listaConversaciones;
-
-    public App(int puerto, String name){
-        this.puertoActual = puerto;
-        this.ID = name;
-    }
-
     public void sendMessage(String mensaje, int puertoDestino, String nombreDestinatario) throws IOException {
         int i = 0;
         boolean flag = true;
@@ -50,5 +44,10 @@ public class App {
         this.listener.start();
 
     }
+
+    public static void main(String[] args) throws IOException {
+        launch(args);
+    }
+
 
 }
